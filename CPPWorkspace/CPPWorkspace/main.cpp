@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main(){
-    std::cout<< "Hello Sample" << std::endl;
+    std::cout<< "Hello Project1" << std::endl;
+    std::cout<< "Hello Project1" << std::endl;
     return 0;
 }

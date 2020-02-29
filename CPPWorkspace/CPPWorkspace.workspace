@@ -2,15 +2,15 @@
 <CodeLite_Workspace Name="CPPWorkspace" Database="" Version="10000" SWTLW="Yes">
   <WorkspaceParserMacros/>
   <WorkspaceParserPaths/>
-  <Project Name="CPPWorkspace" Path="CPPWorkspace/CPPWorkspace.project" Active="Yes"/>
+  <Project Name="FirstChallangeStrings" Path="FirstProgram/FirstProgram.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="CPPWorkspace" ConfigName="Debug"/>
+      <Project Name="FirstChallangeStrings" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="CPPWorkspace" ConfigName="Release"/>
+      <Project Name="FirstChallangeStrings" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
