@@ -2,15 +2,33 @@
 <CodeLite_Workspace Name="CPPWorkspace" Database="" Version="10000" SWTLW="Yes">
   <WorkspaceParserMacros/>
   <WorkspaceParserPaths/>
-  <Project Name="FirstChallangeStrings" Path="FirstProgram/FirstProgram.project" Active="Yes"/>
+  <Project Name="FirstChallangeStrings" Path="FirstProgram/FirstProgram.project" Active="No"/>
+  <Project Name="PlayingWithNamespaces" Path="VariablesAndConstants/VariablesAndConstants.project" Active="No"/>
+  <Project Name="VariablesAndConstants" Path="VariablesAndConstants/VariablesAndConstants.project" Active="No"/>
+  <Project Name="PrimitiveTypes" Path="PrimitiveTypes/PrimitiveTypes.project" Active="No"/>
+  <Project Name="UsingSizeof" Path="UsingSizeof/UsingSizeof.project" Active="No"/>
+  <Project Name="Constants" Path="Constants/Constants.project" Active="No"/>
+  <Project Name="ChallangeTwo" Path="ChallangeTwo/ChallangeTwo.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="FirstChallangeStrings" ConfigName="Debug"/>
+      <Project Name="PlayingWithNamespaces" ConfigName="Debug"/>
+      <Project Name="VariablesAndConstants" ConfigName="Debug"/>
+      <Project Name="PrimitiveTypes" ConfigName="Debug"/>
+      <Project Name="UsingSizeof" ConfigName="Debug"/>
+      <Project Name="Constants" ConfigName="Debug"/>
+      <Project Name="ChallangeTwo" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="FirstChallangeStrings" ConfigName="Release"/>
+      <Project Name="PlayingWithNamespaces" ConfigName="Release"/>
+      <Project Name="VariablesAndConstants" ConfigName="Release"/>
+      <Project Name="PrimitiveTypes" ConfigName="Release"/>
+      <Project Name="UsingSizeof" ConfigName="Release"/>
+      <Project Name="Constants" ConfigName="Release"/>
+      <Project Name="ChallangeTwo" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
