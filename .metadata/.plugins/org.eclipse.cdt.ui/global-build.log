@@ -1,4 +1,4 @@
-15:21:42 **** Incremental Build of configuration Debug for project ChallangeGreedyAlg ****
+15:27:56 **** Incremental Build of configuration Debug for project ChallangeGreedyAlg ****
 make all 
 Building file: ../src/ChallangeGreedyAlg.cpp
 Invoking: GCC C++ Compiler
@@ -10,6 +10,6 @@ Invoking: MacOS X C++ Linker
 g++  -o "ChallangeGreedyAlg"  ./src/ChallangeGreedyAlg.o   
 Finished building target: ChallangeGreedyAlg
  
-15:21:45 **** Incremental Build of configuration Debug for project ChallangeGreedyAlg ****
+15:27:58 **** Incremental Build of configuration Debug for project ChallangeGreedyAlg ****
 make all 
 make: Nothing to be done for `all'.

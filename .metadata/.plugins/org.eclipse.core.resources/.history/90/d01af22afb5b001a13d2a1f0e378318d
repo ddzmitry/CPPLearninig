@@ -34,6 +34,7 @@ int main() {
 		 // for vector purpose
 		 vct.at(x).at(0) =  coin_count;
 		 cout << " There is " << coin_count << " of " << current_coint << " cent coin in " << origin_input << " cents "<< endl;
+		 //input = module_left;
 
 	}
 

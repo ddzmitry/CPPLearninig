@@ -1,6 +1,6 @@
-15:21:45 **** Incremental Build of configuration Debug for project ChallangeGreedyAlg ****
+15:27:58 **** Incremental Build of configuration Debug for project ChallangeGreedyAlg ****
 make all 
 make: Nothing to be done for `all'.
 
-15:21:45 Build Finished. 0 errors, 0 warnings. (took 82ms)
+15:27:58 Build Finished. 0 errors, 0 warnings. (took 136ms)
 

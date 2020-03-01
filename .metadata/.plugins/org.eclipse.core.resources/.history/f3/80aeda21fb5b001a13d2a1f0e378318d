@@ -27,13 +27,14 @@ int main() {
 	for (int x = 0; x < vct.size(); x++) {
 		 current_coint = vct.at(x).at(0);
 		 //cout << "COIN IS: " << current_coint << endl;
-		 input -= input % current_coint;
+		 module_left = input % current_coint;
 		 //cout << "Left from module " <<  module_left << endl;
 		 // Count per nomination
 		 coin_count = (input - module_left) / current_coint;
 		 // for vector purpose
 		 vct.at(x).at(0) =  coin_count;
 		 cout << " There is " << coin_count << " of " << current_coint << " cent coin in " << origin_input << " cents "<< endl;
+		 input = module_left;
 
 	}
 
