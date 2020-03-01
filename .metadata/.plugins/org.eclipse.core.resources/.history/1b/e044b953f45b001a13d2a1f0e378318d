@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : ChallangeGreedyAlg.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	const double quater = {0.25};
+	const double dime = {0.10};
+	const double nickel = {0.05};
+	const double penny = {0.01};
+
+	// In Amount of cents
+	93
+
+
+
+	return 0;
+}

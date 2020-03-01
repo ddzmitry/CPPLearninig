@@ -1,0 +1,53 @@
+//============================================================================
+// Name        : ChallangeGreedyAlg.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+
+	const int quater  {25};
+	const int dime {10};
+	const int nickel {5};
+	const int penny {1};
+	vector <vector<int>> vct {{quater},{dime},{nickel},{penny}};
+	int input {999};
+	int hold {0};
+	int current_coint {0};
+	int module_left {0};
+	int coin_count {0};
+	for (int x = 0; x < vct.size(); x++) {
+		 current_coint = vct.at(x).at(0);
+
+		 cout << "COIN IS: " << current_coint << endl;
+
+		 module_left = input % current_coint;
+		 cout << "Left from module " <<  module_left << endl;
+
+		 // Count per nomination
+		 coin_count = (input - module_left) / current_coint;
+
+		 cout << " There is " << coin_count << " of " << current_coint << " in " << input << endl;
+		 input = module_left;
+
+
+	}
+
+
+	//int test_value = 93;
+
+	// Module of the value will return the value
+//	roster.at(0) = (test_value - (test_value%quater)) / quater;
+//
+//	cout << test_value%quater << endl;
+
+
+
+	return 0;
+}

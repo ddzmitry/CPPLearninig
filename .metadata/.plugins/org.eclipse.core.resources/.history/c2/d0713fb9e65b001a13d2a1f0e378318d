@@ -1,0 +1,21 @@
+// Section 8
+// Mixed Type Expressions
+/*
+    Ask the user to enter 3 integers
+    Calculate the sum of the integers then
+    calculate the average of the 3 integers.
+
+    Display the 3 integers entered
+    the sum of the 3 integers and
+    the average of the 3 integers.
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << endl;
+    return 0;
+}
+

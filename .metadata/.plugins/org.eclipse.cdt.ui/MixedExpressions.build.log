@@ -1,0 +1,10 @@
+13:01:53 **** Incremental Build of configuration Debug for project MixedExpressions ****
+make all 
+Building target: MixedExpressions
+Invoking: MacOS X C++ Linker
+g++  -o "MixedExpressions"  ./src/MixedExpressions.o   
+Finished building target: MixedExpressions
+ 
+
+13:01:53 Build Finished. 0 errors, 0 warnings. (took 119ms)
+
