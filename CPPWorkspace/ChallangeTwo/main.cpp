@@ -8,15 +8,10 @@ using namespace std;
 }
 
 int main(){
-    
-
-    
-    
     const double price_small {25.0};
     const double price_big {35.0};
     const double taxes {0.06};
     const int estimate_expiry {30}; // days
-    
     
     cout << "Welcome to Cleaning Services\n" << endl;
     cout << "How many big rooms need to be cleaned\n" << endl;
@@ -33,5 +28,7 @@ int main(){
     cout << "Price for big rooms is " << bigPrice << endl;
     cout << "===============================" << endl;
     cout << "Total Price will be : " << smallPrice + bigPrice << " $" <<endl;
+    cout << "Valid for " << estimate_expiry << " days" << endl;
+    
     return 0;
 }

@@ -2,6 +2,7 @@
 <Workspace>
   <WorkspaceParserPaths/>
   <Environment Name="Default"/>
-  <WorkspaceParserFlags flags="10"/>
+  <WorkspaceParserFlags flags="15"/>
+  <LocalWorkspaceOptions/>
   <WorkspaceParserMacros/>
 </Workspace>

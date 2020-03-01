@@ -8,7 +8,13 @@
   <Project Name="PrimitiveTypes" Path="PrimitiveTypes/PrimitiveTypes.project" Active="No"/>
   <Project Name="UsingSizeof" Path="UsingSizeof/UsingSizeof.project" Active="No"/>
   <Project Name="Constants" Path="Constants/Constants.project" Active="No"/>
-  <Project Name="ChallangeTwo" Path="ChallangeTwo/ChallangeTwo.project" Active="Yes"/>
+  <Project Name="ChallangeTwo" Path="ChallangeTwo/ChallangeTwo.project" Active="No"/>
+  <Project Name="ArrLearning" Path="ArrLearning/ArrLearning.project" Active="No"/>
+  <Project Name="LearningVectors" Path="LearningVectors/LearningVectors.project" Active="No"/>
+  <Project Name="VectorChallanges" Path="VectorChallanges/VectorChallanges.project" Active="No"/>
+  <Project Name="AssigmentOperations" Path="AssigmentOperations/AssigmentOperations.project" Active="No"/>
+  <Project Name="Euros" Path="Euros/Euros.project" Active="No"/>
+  <Project Name="IncrementDecrement" Path="IncrementDecrement/IncrementDecrement.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -19,6 +25,12 @@
       <Project Name="UsingSizeof" ConfigName="Debug"/>
       <Project Name="Constants" ConfigName="Debug"/>
       <Project Name="ChallangeTwo" ConfigName="Debug"/>
+      <Project Name="ArrLearning" ConfigName="Debug"/>
+      <Project Name="LearningVectors" ConfigName="Debug"/>
+      <Project Name="VectorChallanges" ConfigName="Debug"/>
+      <Project Name="AssigmentOperations" ConfigName="Debug"/>
+      <Project Name="Euros" ConfigName="Debug"/>
+      <Project Name="IncrementDecrement" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -29,6 +41,12 @@
       <Project Name="UsingSizeof" ConfigName="Release"/>
       <Project Name="Constants" ConfigName="Release"/>
       <Project Name="ChallangeTwo" ConfigName="Release"/>
+      <Project Name="ArrLearning" ConfigName="Release"/>
+      <Project Name="LearningVectors" ConfigName="Release"/>
+      <Project Name="VectorChallanges" ConfigName="Release"/>
+      <Project Name="AssigmentOperations" ConfigName="Release"/>
+      <Project Name="Euros" ConfigName="Release"/>
+      <Project Name="IncrementDecrement" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
