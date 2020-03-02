@@ -20,7 +20,7 @@ int main() {
 	int input {0};
 	cout << "Enter Amount of coins you have:";
 	cin  >> input ;
-	int origin_input = input;
+	int origin_input {input};
 	int current_coint {0};
 	int module_left {0};
 	int coin_count {0};
@@ -34,7 +34,7 @@ int main() {
 		 // for vector purpose
 		 vct.at(x).at(0) =  coin_count;
 		 cout << " There is " << coin_count << " of " << current_coint << " cent coin in " << origin_input << " cents "<< endl;
-
+		 // can also use balance %= quaters etc.
 	}
 
 

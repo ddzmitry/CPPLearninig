@@ -1,15 +1,15 @@
-15:27:56 **** Incremental Build of configuration Debug for project ChallangeGreedyAlg ****
+07:39:22 **** Incremental Build of configuration Debug for project Looping ****
 make all 
-Building file: ../src/ChallangeGreedyAlg.cpp
+Building file: ../src/Looping.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ChallangeGreedyAlg.d" -MT"src/ChallangeGreedyAlg.o" -o "src/ChallangeGreedyAlg.o" "../src/ChallangeGreedyAlg.cpp"
-Finished building: ../src/ChallangeGreedyAlg.cpp
+g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Looping.d" -MT"src/Looping.o" -o "src/Looping.o" "../src/Looping.cpp"
+Finished building: ../src/Looping.cpp
  
-Building target: ChallangeGreedyAlg
+Building target: Looping
 Invoking: MacOS X C++ Linker
-g++  -o "ChallangeGreedyAlg"  ./src/ChallangeGreedyAlg.o   
-Finished building target: ChallangeGreedyAlg
+g++  -o "Looping"  ./src/Looping.o   
+Finished building target: Looping
  
-15:27:58 **** Incremental Build of configuration Debug for project ChallangeGreedyAlg ****
+07:39:24 **** Incremental Build of configuration Debug for project Looping ****
 make all 
 make: Nothing to be done for `all'.
