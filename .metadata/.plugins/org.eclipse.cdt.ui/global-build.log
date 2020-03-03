@@ -1,15 +1,15 @@
-07:39:22 **** Incremental Build of configuration Debug for project Looping ****
+19:08:37 **** Incremental Build of configuration Debug for project DoWhile ****
 make all 
-Building file: ../src/Looping.cpp
+Building file: ../src/DoWhile.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Looping.d" -MT"src/Looping.o" -o "src/Looping.o" "../src/Looping.cpp"
-Finished building: ../src/Looping.cpp
+g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DoWhile.d" -MT"src/DoWhile.o" -o "src/DoWhile.o" "../src/DoWhile.cpp"
+Finished building: ../src/DoWhile.cpp
  
-Building target: Looping
+Building target: DoWhile
 Invoking: MacOS X C++ Linker
-g++  -o "Looping"  ./src/Looping.o   
-Finished building target: Looping
+g++  -o "DoWhile"  ./src/DoWhile.o   
+Finished building target: DoWhile
  
-07:39:24 **** Incremental Build of configuration Debug for project Looping ****
+19:08:41 **** Incremental Build of configuration Debug for project DoWhile ****
 make all 
 make: Nothing to be done for `all'.
