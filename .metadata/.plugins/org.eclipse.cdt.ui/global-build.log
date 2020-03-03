@@ -1,15 +1,15 @@
-19:08:37 **** Incremental Build of configuration Debug for project DoWhile ****
+22:11:41 **** Incremental Build of configuration Debug for project CPPStrings ****
 make all 
-Building file: ../src/DoWhile.cpp
+Building file: ../src/CPPStrings.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DoWhile.d" -MT"src/DoWhile.o" -o "src/DoWhile.o" "../src/DoWhile.cpp"
-Finished building: ../src/DoWhile.cpp
+g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CPPStrings.d" -MT"src/CPPStrings.o" -o "src/CPPStrings.o" "../src/CPPStrings.cpp"
+Finished building: ../src/CPPStrings.cpp
  
-Building target: DoWhile
+Building target: CPPStrings
 Invoking: MacOS X C++ Linker
-g++  -o "DoWhile"  ./src/DoWhile.o   
-Finished building target: DoWhile
+g++  -o "CPPStrings"  ./src/CPPStrings.o   
+Finished building target: CPPStrings
  
-19:08:41 **** Incremental Build of configuration Debug for project DoWhile ****
+22:11:43 **** Incremental Build of configuration Debug for project CPPStrings ****
 make all 
 make: Nothing to be done for `all'.
