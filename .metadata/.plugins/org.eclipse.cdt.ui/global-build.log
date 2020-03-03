@@ -1,15 +1,15 @@
-22:11:41 **** Incremental Build of configuration Debug for project CPPStrings ****
+07:44:06 **** Build of configuration Debug for project FunctionDefinition ****
 make all 
-Building file: ../src/CPPStrings.cpp
+Building file: ../src/FunctionDefinition.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CPPStrings.d" -MT"src/CPPStrings.o" -o "src/CPPStrings.o" "../src/CPPStrings.cpp"
-Finished building: ../src/CPPStrings.cpp
+g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FunctionDefinition.d" -MT"src/FunctionDefinition.o" -o "src/FunctionDefinition.o" "../src/FunctionDefinition.cpp"
+Finished building: ../src/FunctionDefinition.cpp
  
-Building target: CPPStrings
+Building target: FunctionDefinition
 Invoking: MacOS X C++ Linker
-g++  -o "CPPStrings"  ./src/CPPStrings.o   
-Finished building target: CPPStrings
+g++  -o "FunctionDefinition"  ./src/FunctionDefinition.o   
+Finished building target: FunctionDefinition
  
-22:11:43 **** Incremental Build of configuration Debug for project CPPStrings ****
+07:44:12 **** Incremental Build of configuration Debug for project FunctionDefinition ****
 make all 
 make: Nothing to be done for `all'.
