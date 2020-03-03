@@ -1,15 +1,15 @@
-07:44:06 **** Build of configuration Debug for project FunctionDefinition ****
+08:31:27 **** Build of configuration Debug for project FunctionsConvertingTemperatures ****
 make all 
-Building file: ../src/FunctionDefinition.cpp
+Building file: ../src/WgileLoops.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FunctionDefinition.d" -MT"src/FunctionDefinition.o" -o "src/FunctionDefinition.o" "../src/FunctionDefinition.cpp"
-Finished building: ../src/FunctionDefinition.cpp
+g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/WgileLoops.d" -MT"src/WgileLoops.o" -o "src/WgileLoops.o" "../src/WgileLoops.cpp"
+Finished building: ../src/WgileLoops.cpp
  
-Building target: FunctionDefinition
+Building target: FunctionsConvertingTemperatures
 Invoking: MacOS X C++ Linker
-g++  -o "FunctionDefinition"  ./src/FunctionDefinition.o   
-Finished building target: FunctionDefinition
+g++  -o "FunctionsConvertingTemperatures"  ./src/WgileLoops.o   
+Finished building target: FunctionsConvertingTemperatures
  
-07:44:12 **** Incremental Build of configuration Debug for project FunctionDefinition ****
+08:31:35 **** Incremental Build of configuration Debug for project FunctionsConvertingTemperatures ****
 make all 
 make: Nothing to be done for `all'.
