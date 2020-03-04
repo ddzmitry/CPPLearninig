@@ -54,26 +54,42 @@ int main() {
 
     cout << "==================4=================" << endl;
 
-    int score {10};
-    double high_temp {100.7};
 
-    int *score_ptr {nullptr};
+        int score{10};
+        double high_temp{100.7};
 
-    // will take address of score
-    score_ptr = &score;
+        int *score_ptr {nullptr};
 
-	cout << "Value of score is: " << score << endl;
+        score_ptr = &score;
+        cout << "Value of score is: " << score << endl;
+        cout << "Address of score is: " << &score << endl;
+        cout << "Value of score_ptr is: " << score_ptr << endl;
 
-	cout << "Address of score is: " << &score << endl;
-
-	cout << "Size of score is: " << sizeof score << endl;
+       // score_ptr = &high_temp;     // Compiler error
 
 
-	cout << "Value of score_ptr is: " << score_ptr << endl;
 
-	cout << "Address of score_ptr is: " << &score_ptr << endl;
 
-	cout << "Size of score_ptr is: " << sizeof score_ptr << endl;
+//    int score {10};
+//    double high_temp {100.7};
+//
+//    int *score_ptr {nullptr};
+//
+//    // will take address of score
+//    score_ptr = &score;
+//
+//	cout << "Value of score is: " << score << endl;
+//
+//	cout << "Address of score is: " << &score << endl;
+//
+//	cout << "Size of score is: " << sizeof score << endl;
+//
+//
+//	cout << "Value of score_ptr is: " << score_ptr << endl;
+//
+//	cout << "Address of score_ptr is: " << &score_ptr << endl;
+//
+//	cout << "Size of score_ptr is: " << sizeof score_ptr << endl;
 
 
 
