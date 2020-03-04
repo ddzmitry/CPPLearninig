@@ -1,15 +1,19 @@
-22:39:03 **** Build of configuration Debug for project FunctionChallange ****
+08:05:46 **** Incremental Build of configuration Debug for project PointersAccessing ****
 make all 
-Building file: ../src/FunctionChallange.cpp
+Building file: ../src/PointersAccessing.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FunctionChallange.d" -MT"src/FunctionChallange.o" -o "src/FunctionChallange.o" "../src/FunctionChallange.cpp"
-Finished building: ../src/FunctionChallange.cpp
+g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PointersAccessing.d" -MT"src/PointersAccessing.o" -o "src/PointersAccessing.o" "../src/PointersAccessing.cpp"
+../src/PointersAccessing.cpp:58:12: warning: unused variable 'high_temp' [-Wunused-variable]
+    double high_temp {100.7};
+           ^
+1 warning generated.
+Finished building: ../src/PointersAccessing.cpp
  
-Building target: FunctionChallange
+Building target: PointersAccessing
 Invoking: MacOS X C++ Linker
-g++  -o "FunctionChallange"  ./src/FunctionChallange.o   
-Finished building target: FunctionChallange
+g++  -o "PointersAccessing"  ./src/PointersAccessing.o   
+Finished building target: PointersAccessing
  
-22:39:11 **** Incremental Build of configuration Debug for project FunctionChallange ****
+08:05:47 **** Incremental Build of configuration Debug for project PointersAccessing ****
 make all 
 make: Nothing to be done for `all'.
