@@ -54,42 +54,43 @@ int main() {
 
     cout << "==================4=================" << endl;
 
-
-        int score{10};
-        double high_temp{100.7};
-
-        int *score_ptr {nullptr};
-
-        score_ptr = &score;
-        cout << "Value of score is: " << score << endl;
-        cout << "Address of score is: " << &score << endl;
-        cout << "Value of score_ptr is: " << score_ptr << endl;
+//
+//        int score{10};
+//        double high_temp{100.7};
+//
+//        int *score_ptr {nullptr};
+//
+//        score_ptr = &score;
+//        cout << "Value of score is: " << score << endl;
+//        cout << "Address of score is: " << &score << endl;
+//        //value same as an address
+//        cout << "Value of score_ptr is: " << score_ptr << endl;
 
        // score_ptr = &high_temp;     // Compiler error
 
 
 
 
-//    int score {10};
-//    double high_temp {100.7};
-//
-//    int *score_ptr {nullptr};
-//
-//    // will take address of score
-//    score_ptr = &score;
-//
-//	cout << "Value of score is: " << score << endl;
-//
-//	cout << "Address of score is: " << &score << endl;
-//
-//	cout << "Size of score is: " << sizeof score << endl;
-//
-//
-//	cout << "Value of score_ptr is: " << score_ptr << endl;
-//
-//	cout << "Address of score_ptr is: " << &score_ptr << endl;
-//
-//	cout << "Size of score_ptr is: " << sizeof score_ptr << endl;
+    int score {10};
+    double high_temp {100.7};
+
+    int *score_ptr {nullptr};
+
+    // will take address of score
+    score_ptr = &score;
+
+	//cout << "Value of score is: " << score << endl;
+
+	cout << "Address of score is: " << &score << endl;
+
+	//cout << "Size of score is: " << sizeof score << endl;
+
+
+	cout << "Value of score_ptr is: " << score_ptr << endl;
+	cout << "Dirreferenced Value of score_ptr is: " << *score_ptr << endl;
+	//cout << "Address of score_ptr is: " << &score_ptr << endl;
+
+	// << "Size of score_ptr is: " << sizeof score_ptr << endl;
 
 
 

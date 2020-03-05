@@ -1,19 +1,15 @@
-08:08:09 **** Incremental Build of configuration Debug for project PointersAccessing ****
+21:58:02 **** Incremental Build of configuration Debug for project PointerToFunctino ****
 make all 
-Building file: ../src/PointersAccessing.cpp
+Building file: ../src/PointerToFunctino.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PointersAccessing.d" -MT"src/PointersAccessing.o" -o "src/PointersAccessing.o" "../src/PointersAccessing.cpp"
-../src/PointersAccessing.cpp:59:16: warning: unused variable 'high_temp' [-Wunused-variable]
-        double high_temp{100.7};
-               ^
-1 warning generated.
-Finished building: ../src/PointersAccessing.cpp
+g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PointerToFunctino.d" -MT"src/PointerToFunctino.o" -o "src/PointerToFunctino.o" "../src/PointerToFunctino.cpp"
+Finished building: ../src/PointerToFunctino.cpp
  
-Building target: PointersAccessing
+Building target: PointerToFunctino
 Invoking: MacOS X C++ Linker
-g++  -o "PointersAccessing"  ./src/PointersAccessing.o   
-Finished building target: PointersAccessing
+g++  -o "PointerToFunctino"  ./src/PointerToFunctino.o   
+Finished building target: PointerToFunctino
  
-08:08:12 **** Incremental Build of configuration Debug for project PointersAccessing ****
+21:58:06 **** Incremental Build of configuration Debug for project PointerToFunctino ****
 make all 
 make: Nothing to be done for `all'.
