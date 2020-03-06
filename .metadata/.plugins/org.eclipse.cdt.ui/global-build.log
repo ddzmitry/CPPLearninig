@@ -1,15 +1,15 @@
-21:58:02 **** Incremental Build of configuration Debug for project PointerToFunctino ****
+07:35:58 **** Build of configuration Debug for project PointerFromFunction ****
 make all 
-Building file: ../src/PointerToFunctino.cpp
+Building file: ../src/PointerFromFunction.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PointerToFunctino.d" -MT"src/PointerToFunctino.o" -o "src/PointerToFunctino.o" "../src/PointerToFunctino.cpp"
-Finished building: ../src/PointerToFunctino.cpp
+g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PointerFromFunction.d" -MT"src/PointerFromFunction.o" -o "src/PointerFromFunction.o" "../src/PointerFromFunction.cpp"
+Finished building: ../src/PointerFromFunction.cpp
  
-Building target: PointerToFunctino
+Building target: PointerFromFunction
 Invoking: MacOS X C++ Linker
-g++  -o "PointerToFunctino"  ./src/PointerToFunctino.o   
-Finished building target: PointerToFunctino
+g++  -o "PointerFromFunction"  ./src/PointerFromFunction.o   
+Finished building target: PointerFromFunction
  
-21:58:06 **** Incremental Build of configuration Debug for project PointerToFunctino ****
+07:36:07 **** Incremental Build of configuration Debug for project PointerFromFunction ****
 make all 
 make: Nothing to be done for `all'.
