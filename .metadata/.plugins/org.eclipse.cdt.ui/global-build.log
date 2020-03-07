@@ -1,8 +1,12 @@
-07:35:58 **** Build of configuration Debug for project PointerFromFunction ****
+20:21:37 **** Incremental Build of configuration Debug for project PointerFromFunction ****
 make all 
 Building file: ../src/PointerFromFunction.cpp
 Invoking: GCC C++ Compiler
 g++ -std=c++14 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PointerFromFunction.d" -MT"src/PointerFromFunction.o" -o "src/PointerFromFunction.o" "../src/PointerFromFunction.cpp"
+../src/PointerFromFunction.cpp:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
 Finished building: ../src/PointerFromFunction.cpp
  
 Building target: PointerFromFunction
@@ -10,6 +14,6 @@ Invoking: MacOS X C++ Linker
 g++  -o "PointerFromFunction"  ./src/PointerFromFunction.o   
 Finished building target: PointerFromFunction
  
-07:36:07 **** Incremental Build of configuration Debug for project PointerFromFunction ****
+20:21:38 **** Incremental Build of configuration Debug for project PointerFromFunction ****
 make all 
 make: Nothing to be done for `all'.
