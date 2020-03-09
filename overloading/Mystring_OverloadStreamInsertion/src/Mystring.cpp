@@ -85,22 +85,32 @@ bool operator==(const Mystring &lhs, const Mystring &rhs) {
 
 // Make lowercase
 Mystring operator-(const Mystring &obj) {
+	// create buffer size of the string
     char *buff = new char[std::strlen(obj.str) + 1];
+    // copy string to buffer
     std::strcpy(buff, obj.str);
+    // make it small
     for (size_t i=0; i<std::strlen(buff); i++)
         buff[i] = std::tolower(buff[i]);
+    // create new string and return it
     Mystring temp {buff};
     delete [] buff;
+    // here we go
     return temp;
 }
 
 // Concatenation
 Mystring operator+(const Mystring &lhs, const Mystring &rhs) {
+	// create buffer of the lenght of two string
     char *buff = new char[std::strlen(lhs.str) + std::strlen(rhs.str) + 1];
+    // copy and concatinate two strings to buffer
     std::strcpy(buff, lhs.str);
     std::strcat(buff, rhs.str);
+    // create new MYstring object
     Mystring temp {buff};
+    // delete temp
     delete [] buff;
+    // return it
     return temp;
 }
 
