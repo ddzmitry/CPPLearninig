@@ -103,6 +103,7 @@ void Student::print(){
         case 1: cout << "Network \n";
         break;
         case 2: cout << "Software \n";
+        break;
         default:
             break;
     }
